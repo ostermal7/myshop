@@ -30,6 +30,10 @@ public class UserService {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
+    
+    public User getByEmail(String email) {
+    	return userRepo.getUserByEmail(email);
+    }
 
     public List<User> listAll(){
         return (List<User>) userRepo.findAll(Sort.by("firstName").ascending());
@@ -114,5 +118,22 @@ public class UserService {
 
     public void updateUserEnabledStatus(Integer id,boolean enabled){
         userRepo.updateEnabledStatus(id,enabled);
+    }
+    
+    public User updateAccount(User userInfo) {
+    	User userInDB = userRepo.findById(userInfo.getId()).get();
+    	
+    	if (!userInfo.getPassword().isEmpty()) {
+    		userInDB.setPassword(userInfo.getPassword());
+    		encodePassword(userInDB);
+    	}
+    	
+    	if (userInfo.getPhotos() != null)
+    		userInDB.setPhotos(userInfo.getPhotos());
+    	
+    	userInDB.setFirstName(userInfo.getFirstName());
+    	userInDB.setLastName(userInfo.getLastName());
+    	
+    	return userRepo.save(userInDB);
     }
 }

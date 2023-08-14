@@ -1,0 +1,24 @@
+2023-07-23 22:34:00.001  INFO 3280 --- [restartedMain] com.example.myshop.MyshopApplication     : Starting MyshopApplication using Java 17.0.7 on DESKTOP-HVL5104 with PID 3280 (D:\projectsIdea\myshop\target\classes started by „Ґ­Ёб in D:\projectsIdea\myshop)
+2023-07-23 22:34:00.002  INFO 3280 --- [restartedMain] com.example.myshop.MyshopApplication     : No active profile set, falling back to default profiles: default
+2023-07-23 22:34:00.189  INFO 3280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-23 22:34:00.200  INFO 3280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2023-07-23 22:34:00.274  INFO 3280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-23 22:34:00.275  INFO 3280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23 22:34:00.275  INFO 3280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-07-23 22:34:00.299  INFO 3280 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-23 22:34:00.299  INFO 3280 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 293 ms
+2023-07-23 22:34:00.330  INFO 3280 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-23 22:34:00.334  INFO 3280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-07-23 22:34:00.344  INFO 3280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-07-23 22:34:00.344  INFO 3280 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-23 22:34:00.401  INFO 3280 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-23 22:34:00.402  INFO 3280 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23 22:34:00.422  WARN 3280 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-23 22:34:00.525  INFO 3280 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2023-07-23 22:34:00.534  INFO 3280 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2023-07-23 22:34:00.536  INFO 3280 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2023-07-23 22:34:00.545  INFO 3280 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@627a3b22, org.springframework.security.web.context.SecurityContextPersistenceFilter@37ff1ae6, org.springframework.security.web.header.HeaderWriterFilter@5f9b2d1f, org.springframework.security.web.csrf.CsrfFilter@78a33c5e, org.springframework.security.web.authentication.logout.LogoutFilter@30afd919, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6de2a8fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53253562, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55d019cc, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3ee0f482, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@793da57a, org.springframework.security.web.session.SessionManagementFilter@56df9daf, org.springframework.security.web.access.ExceptionTranslationFilter@6b01f7ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b6a06d9]
+2023-07-23 22:34:00.648  INFO 3280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-23 22:34:00.658  INFO 3280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-23 22:34:00.664  INFO 3280 --- [restartedMain] com.example.myshop.MyshopApplication     : Started MyshopApplication in 0.703 seconds (JVM running for 871.552)
+2023-07-23 22:34:00.669  INFO 3280 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

@@ -1,0 +1,31 @@
+2023-07-25 22:53:14.232  INFO 17252 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 22:53:14.234  INFO 17252 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-07-25 22:53:14.271  INFO 17252 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-07-25 22:53:14.393  INFO 17252 --- [restartedMain] com.example.myshop.MyshopApplication     : Starting MyshopApplication using Java 17.0.7 on DESKTOP-HVL5104 with PID 17252 (D:\projectsIdea\myshop\target\classes started by „Ґ­Ёб in D:\projectsIdea\myshop)
+2023-07-25 22:53:14.394  INFO 17252 --- [restartedMain] com.example.myshop.MyshopApplication     : No active profile set, falling back to default profiles: default
+2023-07-25 22:53:14.697  INFO 17252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25 22:53:14.716  INFO 17252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2023-07-25 22:53:14.829  INFO 17252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-25 22:53:14.833  INFO 17252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-25 22:53:14.833  INFO 17252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-07-25 22:53:14.864  INFO 17252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-25 22:53:14.864  INFO 17252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 465 ms
+2023-07-25 22:53:14.881  WARN 17252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [5B5B1A2B83411F3564C82EAC44998E9B]
+2023-07-25 22:53:14.931  INFO 17252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25 22:53:14.939  INFO 17252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-07-25 22:53:14.953  INFO 17252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-07-25 22:53:14.953  INFO 17252 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-07-25 22:53:15.075  INFO 17252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25 22:53:15.076  INFO 17252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25 22:53:15.135  WARN 17252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-25 22:53:15.281  INFO 17252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/images/**'] with []
+2023-07-25 22:53:15.281  INFO 17252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2023-07-25 22:53:15.281  INFO 17252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2023-07-25 22:53:15.286  INFO 17252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6563ea30, org.springframework.security.web.context.SecurityContextPersistenceFilter@11c9a7b8, org.springframework.security.web.header.HeaderWriterFilter@29caab1d, org.springframework.security.web.csrf.CsrfFilter@3fa68a9d, org.springframework.security.web.authentication.logout.LogoutFilter@6ef48f18, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@660241f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55b9f8e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29d7230b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1b15111e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3faf310b, org.springframework.security.web.session.SessionManagementFilter@1ab02411, org.springframework.security.web.access.ExceptionTranslationFilter@25fc390a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@199861c6]
+2023-07-25 22:53:15.367  INFO 17252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-25 22:53:15.379  INFO 17252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-25 22:53:15.383  INFO 17252 --- [restartedMain] com.example.myshop.MyshopApplication     : Started MyshopApplication in 1.051 seconds (JVM running for 114.926)
+2023-07-25 22:53:15.384  INFO 17252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-25 22:53:16.120  INFO 17252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-25 22:53:16.120  INFO 17252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-25 22:53:16.121  INFO 17252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
